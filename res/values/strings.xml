@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSInjection4</string>
+    <string name="hello_world">Hello world!</string>
+	<color name="lightskyblue">#87CEFA</color>
+    <color name="backGroundcolor">#01517C</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFA100</color>
+    <string name="title_activity_choose_medication">Choose_medication</string>
+ 	<color name="blue">#0000FF</color>
+
+</resources>

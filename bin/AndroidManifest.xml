@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teddycathy.msinjection4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        
+        >
+        <activity
+            android:name=".SetupName"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+            android:screenOrientation="landscape"
+            
+>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetupEmail"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Choose_medication"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>
+                <activity
+            android:name=".Rebif"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>
+                        <activity
+            android:name=".Plegridy"
+            android:label="@string/title_activity_choose_medication" 
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                        android:screenOrientation="landscape">
+        </activity>
+        
+                  <activity
+            android:name=".Copaxone"
+            android:label="@string/title_activity_choose_medication" 
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                        android:screenOrientation="landscape">
+        </activity>
+                  <activity
+            android:name=".Betaseron"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                        android:screenOrientation="landscape" >
+        </activity>       
+                  <activity
+            android:name=".Avenox"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity> 
+                  <activity
+            android:name=".Three_times_a_week"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>  
+        <activity
+            android:name=".EveryDay"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>     
+                <activity
+            android:name=".Once_a_week"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>     
+       
+        <activity
+            android:name=".OnceTwoWeeks"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                        android:screenOrientation="landscape" >
+        </activity>  
+  		<activity
+            android:name=".EveryOtherDay"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>        
+  		<activity
+            android:name=".MainCountDown"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>                   
+  		<activity
+            android:name=".Choose_position"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>      
+        <activity
+            android:name=".InjectNow_left_thigh_front"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity> 
+        <activity
+            android:name=".Report_Issues"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity> 
+                <activity
+            android:name=".History"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>    
+         <activity
+            android:name=".Popup"
+            android:label="@string/title_activity_choose_medication"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+                        android:screenOrientation="landscape">
+        </activity>                          
+    </application>
+
+</manifest>

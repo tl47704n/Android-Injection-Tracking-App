@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+            android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/injectionsetupname"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/freeiconmaker_0" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/imageView1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/injection_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Setup - MEDICATION"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical" 
+        android:weightSum="100"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         	android:layout_marginTop="30dp"
+         	android:layout_marginLeft="40dp"
+         	android:gravity="center_horizontal"
+            android:text="What medication are you taking?"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+   
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4" >
+
+        <Button
+            android:id="@+id/btRebif"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_row="3"
+            android:text="REBIF"
+            android:textSize="38sp" />
+
+        <Button
+            android:id="@+id/btCopaxone"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="2"
+            android:text="COPAXONE"
+            android:textSize="38sp" />
+
+        <Button
+            android:id="@+id/btPlegridy"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_column="2"
+            android:layout_gravity="top"
+            android:layout_marginLeft="380dp"
+            android:layout_row="3"
+            android:text="PLEGRIDY"
+            android:textSize="38sp" />
+
+        <Button
+            android:id="@+id/btAvenox"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginLeft="645dp"
+            android:layout_marginTop="16dp"
+            android:layout_row="2"
+            android:text="AVENOX"
+            android:textSize="38sp" />
+
+        <ImageButton
+            android:id="@+id/btback_in_choosemed"
+            android:layout_column="2"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="2"
+            android:src="@drawable/back" />
+
+        <Button
+            android:id="@+id/btBetaseron"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="2"
+            android:text="BETASERON"
+            android:textSize="38sp" />
+
+        <ImageButton
+            android:id="@+id/btNext_choosemed"
+            android:layout_column="2"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="2"
+            android:src="@drawable/next" />
+        
+    </GridLayout>
+
+</LinearLayout>

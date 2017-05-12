@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+            android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/injectionsetupname"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/freeiconmaker_0" />
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/imageView1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/injection_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Setup - NAME"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="2" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/name_ios" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"
+            android:text="Enter new user name:"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/etNames"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_column="1"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="left"
+            android:layout_row="0"
+            android:ems="10"
+            android:hint="Type new user name: " />
+
+        <Button
+            android:id="@+id/btadddata"
+           android:layout_marginTop="90dp"
+            android:layout_width="241dp"
+            android:layout_column="1"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="0"
+            android:text="Add Data" />
+
+        <TextView
+            android:id="@+id/tvdatabase"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_row="0"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btViewall"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:text="View all" />
+    
+    </GridLayout>
+
+</LinearLayout>
